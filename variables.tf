@@ -1,7 +1,7 @@
 variable "location" {
   description = "Région Azure où déployer les ressources"
   type        = string
-  default     = "canadaeast"
+  default     = "canadacentral"
 }
 
 variable "resource_group_name" {
